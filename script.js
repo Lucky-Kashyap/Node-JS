@@ -35,7 +35,7 @@
 
 // const req = require('./fruits/index');
 
-const req = require('./fruits');
+// const req = require('./fruits');
 
 
 // console.log(req);
@@ -43,6 +43,28 @@ const req = require('./fruits');
 // console.log(req[0]);
 
 
-for(let i=0;i<req.length;i++){
-    console.log(req[i]);
-}
+// for(let i=0;i<req.length;i++){
+//     console.log(req[i]);
+// }
+
+
+
+
+const figlet = require('figlet');
+
+
+const lucky = 'Lucky Kashyap';
+
+
+
+figlet(lucky, function (err, data) {
+    if (err) {
+      console.log("Something went wrong...");
+      console.dir(err);
+      return;
+    }
+    console.log(data);
+  });
+
+
+
