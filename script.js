@@ -50,21 +50,23 @@
 
 
 
-const figlet = require('figlet');
+// const figlet = require('figlet');
 
 
-const lucky = 'Lucky Kashyap';
+// const lucky = 'Lucky Kashyap';
 
 
 
-figlet(lucky, function (err, data) {
-    if (err) {
-      console.log("Something went wrong...");
-      console.dir(err);
-      return;
-    }
-    console.log(data);
-  });
+// figlet(lucky, function (err, data) {
+//     if (err) {
+//       console.log("Something went wrong...");
+//       console.dir(err);
+//       return;
+//     }
+//     console.log(data);
+//   });
 
+import { sum } from "./math.js";
 
+console.log(sum(2,3));
 
