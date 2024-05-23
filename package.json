@@ -12,5 +12,5 @@
   },
   "author": "lucky kashyap",
   "license": "ISC",
-  "type": "module"
+  "type": "commonjs"
 }
